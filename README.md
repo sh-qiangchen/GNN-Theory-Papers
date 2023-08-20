@@ -1,19 +1,13 @@
+[TOC]
+
 # GNN-Theory-Papers
+
 This repository mainly lists some the latest research on graph neural network theory.
 
 
 
 # Table of Contents
 
-* [Survey](#Survey)
-
-* [Spectral Domains](#Spectral Domains)
-
-* [Spatial Domains](#Spatial Domains)
-
-* [Expressive Power](#Expressive Power)
-
-   
 ## Survey
 | **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
 | --- | --- | :-: | :-: | :-: | :-: |
