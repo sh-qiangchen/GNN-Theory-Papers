@@ -7,11 +7,11 @@ This repository mainly lists some the latest research on graph neural network th
 # Table of Contents
 * [Survey](#Survey)
 
-- [Spectral Domains](#Spectral Domains)
+- [Spectral Domains](#Spectral-Domains)
 
-- [Spatial Domains](#Spatial Domains)
+- [Spatial Domains](#Spatial-Domains)
 
-- [Expressive Power](#Expressive Power)
+- [Expressive Power](#Expressive-Power)
 
 ## Survey
 | **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
@@ -22,7 +22,7 @@ This repository mainly lists some the latest research on graph neural network th
 
 
 
-## <span id="Spectral Domains">Spectral Domains<span>
+## Spectral-Domains
 
 | **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
 | :-: | --- | :-: | :-: | :-: | :-: |
@@ -32,14 +32,14 @@ This repository mainly lists some the latest research on graph neural network th
 
 
 
-## <span id="Spatial Domains">Spatial Domains<span>
+## Spatial-Domains
 | **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
 | :-: | --- | :-: | :-: | :-: | :-: |
 | MPNNs | [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf) | arxiv | 2017 |  |  |
 
 
 
-## <span id="Expressive Power">Expressive Power<span>
+## Expressive-Power
 
 | **Name** | **Paper**                                                    | **Venue** | **Year** |                           **Code**                           | Hint |
 | :------: | ------------------------------------------------------------ | :-------: | :------: | :----------------------------------------------------------: | :--: |
