@@ -22,7 +22,7 @@ This repository mainly lists some the latest research on graph neural network th
 
 
 
-## Spectral Domains
+## <span id="Spectral Domains">Spectral Domains<span>
 
 | **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
 | :-: | --- | :-: | :-: | :-: | :-: |
@@ -32,14 +32,14 @@ This repository mainly lists some the latest research on graph neural network th
 
 
 
-## Spatial Domains
+## <span id="Spatial Domains">Spatial Domains<span>
 | **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
 | :-: | --- | :-: | :-: | :-: | :-: |
 | MPNNs | [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf) | arxiv | 2017 |  |  |
 
 
 
-## Expressive Power
+## <span id="Expressive Power">Expressive Power<span>
 
 | **Name** | **Paper**                                                    | **Venue** | **Year** |                           **Code**                           | Hint |
 | :------: | ------------------------------------------------------------ | :-------: | :------: | :----------------------------------------------------------: | :--: |
