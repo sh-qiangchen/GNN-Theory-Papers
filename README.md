@@ -7,11 +7,11 @@ This repository mainly lists some the latest research on graph neural network th
 
 * [Survey](#Survey)
 
-- [Spectral Domains](#SpectralDomains)
+* [Spectral Domains](#Spectral Domains)
 
-- [Spatial Domains](#SpatialDomains)
+* [Spatial Domains](#Spatial Domains)
 
-- [Expressive Power](#ExpressivePower)
+* [Expressive Power](#Expressive Power)
 
    
 ## Survey
