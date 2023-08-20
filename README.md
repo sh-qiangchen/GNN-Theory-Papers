@@ -1,5 +1,3 @@
-[TOC]
-
 # GNN-Theory-Papers
 
 This repository mainly lists some the latest research on graph neural network theory.
@@ -7,6 +5,13 @@ This repository mainly lists some the latest research on graph neural network th
 
 
 # Table of Contents
+* [Survey](#Survey)
+
+- [Spectral Domains](#SpectralDomains)
+
+- [Spatial Domains](#SpatialDomains)
+
+- [Expressive Power](#ExpressivePower)
 
 ## Survey
 | **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
@@ -17,7 +22,7 @@ This repository mainly lists some the latest research on graph neural network th
 
 
 
-## Spectral Domains
+## SpectralDomains
 
 | **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
 | :-: | --- | :-: | :-: | :-: | :-: |
@@ -27,14 +32,14 @@ This repository mainly lists some the latest research on graph neural network th
 
 
 
-## Spatial Domains
+## SpatialDomains
 | **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
 | :-: | --- | :-: | :-: | :-: | :-: |
 | MPNNs | [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf) | arxiv | 2017 |  |  |
 
 
 
-## Expressive Power
+## ExpressivePower
 
 | **Name** | **Paper**                                                    | **Venue** | **Year** |                           **Code**                           | Hint |
 | :------: | ------------------------------------------------------------ | :-------: | :------: | :----------------------------------------------------------: | :--: |
