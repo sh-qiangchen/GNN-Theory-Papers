@@ -5,13 +5,12 @@ This repository mainly lists some the latest research on graph neural network th
 
 
 # Table of Contents
-* [Survey](#Survey)
-
-- [Spectral Domains](#Spectral-Domains)
-
-- [Spatial Domains](#Spatial-Domains)
-
-- [Expressive Power](#Expressive-Power)
+<table>
+<tr><td colspan="2"><a href="#Survey">Survey</a></td></tr> 
+<tr><td colspan="2"><a href="#Spectral Domains">Spectral Domains</a></td></tr>
+<tr><td colspan="2"><a href="#Spatial Domains">Spatial Domains</a></td></tr>
+<tr><td colspan="2"><a href="#Expressive Power">Expressive Power</a></td></tr>
+</table>
 
 ## Survey
 | **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
