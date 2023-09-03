@@ -1,4 +1,5 @@
 # GNN-Theory-Papers
+
 This repository mainly lists some the latest research on graph neural network theory.
 
 
@@ -7,57 +8,61 @@ This repository mainly lists some the latest research on graph neural network th
 
 <table>
 <tr><td colspan="2"><a href="#Survey">Survey</a></td></tr> 
-<tr><td colspan="2"><a href="#Spectral Domains">Spectral Domains</a></td></tr>
-<tr><td colspan="2"><a href="#Spatial Domains">Spatial Domains</a></td></tr>
-<tr><td colspan="2"><a href="#Expressive Power">Expressive Power</a></td></tr>
-<tr><td colspan="2"><a href="#Dynamic Graph">Dynamic Graph</a></td></tr> 
+<tr><td colspan="2"><a href="#Spectral-Domains">Spectral Domains</a></td></tr>
+<tr><td colspan="2"><a href="#Spatial-Domains">Spatial Domains</a></td></tr>
+<tr><td colspan="2"><a href="#Expressive-Power">Expressive Power</a></td></tr>
+<tr><td colspan="2"><a href="#Dynamic-Graph">Dynamic Graph</a></td></tr> 
 <tr><td colspan="2"><a href="#Application">Application</a></td></tr> 
 </table>
 
 
 
 
+
+
 ## Survey
-| **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
-| --- | --- | :-: | :-: | :-: | :-: |
-| Survey | [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596.pdf) | arxiv | 2019 |  |  |
-| Survey | [Graph neural networks: A review of methods and applications](https://www.sciencedirect.com/science/article/pii/S2666651021000012) | ScienceDirect | 2020 |  |  |
-| Survey | [Bridging the Gap between Spatial and Spectral Domains: A Survey on Graph Neural Networks](https://arxiv.org/pdf/2002.11867.pdf) | arxiv | 2020 |  |  |
+
+| **Name** | **Paper**                                                    |   **Venue**   | **Year** | **Code** | Hint |
+| -------- | ------------------------------------------------------------ | :-----------: | :------: | :------: | :--: |
+| Survey   | [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/pdf/1901.00596.pdf) |     arxiv     |   2019   |          |      |
+| Survey   | [Graph neural networks: A review of methods and applications](https://www.sciencedirect.com/science/article/pii/S2666651021000012) | ScienceDirect |   2020   |          |      |
+| Survey   | [Bridging the Gap between Spatial and Spectral Domains: A Survey on Graph Neural Networks](https://arxiv.org/pdf/2002.11867.pdf) |     arxiv     |   2020   |          |      |
 
 
 
-## Spectral Domains
+## [Spectral Domains](#content)
 
-| **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
-| :-: | --- | :-: | :-: | :-: | :-: |
-|  | [Spectral Networks and Deep Locally Connected Networks on Graphs](https://arxiv.org/pdf/1312.6203.pdf) | arxiv | 2013 |  |  |
-|  | [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://proceedings.neurips.cc/paper_files/paper/2016/hash/04df4d434d481c5bb723be1b6df1ee65-Abstract.html) | NIPS | 2016 |  |  |
-| GCN | [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://arxiv.org/pdf/1609.02907.pdf) | ICLR | 2017 | [Pytorch]( https://github.com/tkipf/gcn) |  |
-| BernNet | [BernNet: Learning Arbitrary Graph Spectral Filters via Bernstein Approximation](https://arxiv.org/pdf/2106.10994.pdf) | arxiv | 2019 | [Pytorch](https://github.com/ivam-he/BernNet) | |
-| GPR-GNN | [ADAPTIVE UNIVERSAL GENERALIZED PAGERANK GRAPH NEURAL NETWORK](https://arxiv.org/pdf/2006.07988.pdf) | ICLR | 2021 | [Pytorch](https://github.com/jianhao2016/GPRGNN) | |
-| EvenNet | [EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks](https://arxiv.org/pdf/2205.13892.pdf) | NIPS | 2022 | [Code](https://github.com/Leirunlin/EvenNet) | |
-|  | [How Powerful are Spectral Graph Neural Networks](https://arxiv.org/pdf/2205.11172.pdf) | ICLR | 2022 |  | |
-| FavardGNN | [Graph Neural Networks with Learnable and Optimal Polynomial Bases](https://arxiv.org/pdf/2302.12432.pdf) | arxiv | 2023 | [Pytorch](https://github.com/yuziGuo/FarOptBasis) | |
-| LON-GNN | [LON-GNN: Spectral GNNs with Learnable Orthonormal Basis](https://arxiv.org/pdf/2303.13750.pdf) | arxiv | 2023 | [Pytorch](https://github.com/TaoLbr1993/LON-GNN) | |
-
-
-
-## Spatial Domains
-| **Name** | **Paper** | **Venue** | **Year** | **Code** | Hint |
-| :-: | --- | :-: | :-: | :-: | :-: |
-| MPNNs | [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf) | arxiv | 2017 |  |  |
-| SGC | [Simplifying Graph Convolutional Networks](https://arxiv.org/pdf/1902.07153.pdf) | ICML | 2019 | | |
-|  | [Can Graph Neural Networks Count Substructures?](https://arxiv.org/pdf/2002.04025.pdf) | NIPS | 2020 | [Code](https://github.com/leichen2018/GNN-Substructure-Counting) | |
-| GNNML3 | [Breaking the Limits of Message Passing Graph Neural Networks](https://arxiv.org/pdf/2106.04319.pdf) | ICML | 2021 | | |
-|  | [MESSAGE PASSING ALL THE WAY UP](https://arxiv.org/pdf/2202.11097.pdf) | arxiv | 2022 | | |
-|  | [Shortest Path Networks for Graph Property Prediction](https://arxiv.org/pdf/2206.01003.pdf) | arxiv | 2022 | | |
-|  | [Towards Training GNNs using Explanation Directed Message Passing](https://arxiv.org/pdf/2211.16731.pdf) | ICLR | 2022 | | |
-|  | [ANISOTROPIC MESSAGE PASSING: GRAPH NEURAL NETWORKS WITH DIRECTIONAL AND LONG-RANGE INTERACTIONS](https://openreview.net/pdf?id=socffUzSIlx) | ICLR | 2023 | | |
-|  | [FUNDAMENTAL LIMITS IN FORMAL VERIFICATION OF MESSAGE-PASSING NEURAL NETWORKS](https://arxiv.org/pdf/2206.05070v2.pdf) | ICLR | 2023 | | |
+| **Name**  | **Paper**                                                    | **Venue** | **Year** |                     **Code**                      | Hint |
+| :-------: | ------------------------------------------------------------ | :-------: | :------: | :-----------------------------------------------: | :--: |
+|           | [Spectral Networks and Deep Locally Connected Networks on Graphs](https://arxiv.org/pdf/1312.6203.pdf) |   arxiv   |   2013   |                                                   |      |
+|           | [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://proceedings.neurips.cc/paper_files/paper/2016/hash/04df4d434d481c5bb723be1b6df1ee65-Abstract.html) |   NIPS    |   2016   |                                                   |      |
+|    GCN    | [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://arxiv.org/pdf/1609.02907.pdf) |   ICLR    |   2017   |     [Pytorch]( https://github.com/tkipf/gcn)      |      |
+|  BernNet  | [BernNet: Learning Arbitrary Graph Spectral Filters via Bernstein Approximation](https://arxiv.org/pdf/2106.10994.pdf) |   arxiv   |   2019   |   [Pytorch](https://github.com/ivam-he/BernNet)   |      |
+|  GPR-GNN  | [ADAPTIVE UNIVERSAL GENERALIZED PAGERANK GRAPH NEURAL NETWORK](https://arxiv.org/pdf/2006.07988.pdf) |   ICLR    |   2021   | [Pytorch](https://github.com/jianhao2016/GPRGNN)  |      |
+|  EvenNet  | [EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks](https://arxiv.org/pdf/2205.13892.pdf) |   NIPS    |   2022   |   [Code](https://github.com/Leirunlin/EvenNet)    |      |
+|           | [How Powerful are Spectral Graph Neural Networks](https://arxiv.org/pdf/2205.11172.pdf) |   ICLR    |   2022   |                                                   |      |
+| FavardGNN | [Graph Neural Networks with Learnable and Optimal Polynomial Bases](https://arxiv.org/pdf/2302.12432.pdf) |   arxiv   |   2023   | [Pytorch](https://github.com/yuziGuo/FarOptBasis) |      |
+|  LON-GNN  | [LON-GNN: Spectral GNNs with Learnable Orthonormal Basis](https://arxiv.org/pdf/2303.13750.pdf) |   arxiv   |   2023   | [Pytorch](https://github.com/TaoLbr1993/LON-GNN)  |      |
 
 
 
-## Expressive Power
+## [Spatial Domains](#content)
+
+| **Name** | **Paper**                                                    | **Venue** | **Year** |                           **Code**                           | Hint |
+| :------: | ------------------------------------------------------------ | :-------: | :------: | :----------------------------------------------------------: | :--: |
+|  MPNNs   | [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf) |   arxiv   |   2017   |                                                              |      |
+|   SGC    | [Simplifying Graph Convolutional Networks](https://arxiv.org/pdf/1902.07153.pdf) |   ICML    |   2019   |                                                              |      |
+|          | [Can Graph Neural Networks Count Substructures?](https://arxiv.org/pdf/2002.04025.pdf) |   NIPS    |   2020   | [Code](https://github.com/leichen2018/GNN-Substructure-Counting) |      |
+|  GNNML3  | [Breaking the Limits of Message Passing Graph Neural Networks](https://arxiv.org/pdf/2106.04319.pdf) |   ICML    |   2021   |                                                              |      |
+|          | [MESSAGE PASSING ALL THE WAY UP](https://arxiv.org/pdf/2202.11097.pdf) |   arxiv   |   2022   |                                                              |      |
+|          | [Shortest Path Networks for Graph Property Prediction](https://arxiv.org/pdf/2206.01003.pdf) |   arxiv   |   2022   |                                                              |      |
+|          | [Towards Training GNNs using Explanation Directed Message Passing](https://arxiv.org/pdf/2211.16731.pdf) |   ICLR    |   2022   |                                                              |      |
+|          | [ANISOTROPIC MESSAGE PASSING: GRAPH NEURAL NETWORKS WITH DIRECTIONAL AND LONG-RANGE INTERACTIONS](https://openreview.net/pdf?id=socffUzSIlx) |   ICLR    |   2023   |                                                              |      |
+|          | [FUNDAMENTAL LIMITS IN FORMAL VERIFICATION OF MESSAGE-PASSING NEURAL NETWORKS](https://arxiv.org/pdf/2206.05070v2.pdf) |   ICLR    |   2023   |                                                              |      |
+
+
+
+## [Expressive Power](#content)
 
 | **Name** | **Paper**                                                    | **Venue** | **Year** |                           **Code**                           | Hint |
 | :------: | ------------------------------------------------------------ | :-------: | :------: | :----------------------------------------------------------: | :--: |
@@ -83,7 +88,7 @@ This repository mainly lists some the latest research on graph neural network th
 
 
 
-## Dynamic Graph
+## [Dynamic Graph](#content)
 
 | **Name** | **Paper**                                                    |                          **Venue**                           | **Year** | **Code** | Hint |
 | -------- | ------------------------------------------------------------ | :----------------------------------------------------------: | :------: | :------: | :--: |
